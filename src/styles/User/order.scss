@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;600;700;800;900&display=swap');
+
+.page_bg{
+    width: 1200px;
+    margin-bottom: 40px,;
+    padding:10px 32px 32px 32px;
+    // background: #757575;
+    .order_bar{
+      display: flex;
+      justify-content: space-between;
+      .fw-bold{
+        // background: rgb(146, 146, 146);
+        font-size: 1.563rem;
+        letter-spacing: -1px;
+        padding-left:20px;
+        border-left: 5px solid #DBC5A4 ;
+      }  
+      
+      .order-display{
+        padding: .2rem;
+        color: #DBC5A4;
+        background:transparent;
+        border: 1px solid #DBC5A4 ;
+        border-radius: 5px;
+      }
+
+
+    }
+       
+       
+      .content_bg{
+        margin-top: 50px;
+        background: #111111;
+        
+      }    
+}
+
+
+.wrapper {
+      max-width: 1200px;
+      margin: 0 auto;
+      
+  }
+.tabs{
+  margin: 10px 50px ;
+  padding: 30px 0 0;
+  display: flex;
+  justify-content: left;
+  border-bottom: 1px solid #DBC5A4;
+  a{
+    
+    color: #DBC5A4;
+    font-size: 1rem;
+    font-weight: bold;
+    margin: 0 20px 0 0;
+    padding:0 15px;
+    padding-bottom: 10px;
+    text-decoration: none;
+    
+
+  }
+  // .order_active{
+  //   border-bottom: 5px solid #FFB600;
+  // }
+}
+ 
+.content > div {
+      // display: none;
+      padding: 0.65rem;
+  }
+
+.wrapper .show {
+    display: block ;
+  }
+// .active{
+//   border-bottom: 5px solid #FFB600;
+// }
+.order_pay_status{
+  .css-1h9z7r5-MuiButtonBase-root-MuiTab-root.Mui-selected {
+  color: #DBC5A4;
+  font-family: 'Inter', sans-serif;
+  font-size: 1rem;
+  font-weight: bold;
+}
+.css-1aquho2-MuiTabs-indicator {
+  position: absolute;
+  height: 5px;
+  bottom: 0;
+  width: 100%;
+  -webkit-transition: all 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  transition: all 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  background-color: #FFB600;
+}
+.css-1h9z7r5-MuiButtonBase-root-MuiTab-root{
+  color:#DBC5A4;
+  font-family: 'Inter', sans-serif;
+  font-size: 1rem;
+  font-weight: bold;
+}
+}
+
+
+.order_list{
+  margin: 10px 40px ;
+  // height: 250px;
+  
+}
+.order_date{
+  padding-left: 20px;
+  color: #111111;
+  background: #DBC5A4;
+  opacity: .6;
+  font-family: 'Inter', sans-serif;
+  font-weight: 900;
+  font-size: 1.2rem;
+}
+.order_content{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  height: 180px;
+  // background: rgb(143, 143, 143);
+  display: flex; 
+  align-items: center;
+}
+ 
+  .order_img{
+    margin:  auto 0;
+    max-width: 150px;
+    display: flex; 
+    align-items: center;
+    // height: 150px;
+  }
+  
+  .order_state{
+    // height: 300px;
+    margin: 0 0 0 80px;
+    color: #DBC5A4;
+    font-size: 1rem;
+    font-family: 'Inter', sans-serif;
+    font-weight: 900;
+    p{
+      padding: 12px 0;
+      letter-spacing: 1px;
+      .state{
+        color: white;
+        background: #9F0606;
+        margin: 20px;
+        padding: 8px;
+        border-radius: 5px;
+      }
+      .state_2{
+        color: rgb(0, 0, 0);
+        background: #FFB600;
+        margin: 20px;
+        padding: 8px;
+        border-radius: 5px;
+      }
+      .state_3 {
+        color: rgb(0, 0, 0);
+        background: #FFB600;
+        margin: 20px;
+        padding: 8px;
+        border-radius: 5px;
+      }
+      .state_4 {
+        color: rgb(0, 0, 0);
+        background: #E8922F;
+        margin: 20px;
+        padding: 8px;
+        border-radius: 5px;
+      }
+      .state_5 {
+        color: rgb(255, 255, 255);
+        background: #888276;
+        margin: 20px;
+        padding: 8px;
+        border-radius: 5px;
+      }
+    }
+    
+    
+  }
+  
+  .order_button{
+    // display:flex ;
+    // align-items: center;
+    // justify-content: center;
+    text-align: right;
+    // background: #DBC5A4;
+    .order_detail_button{
+    // margin: 50px  ;
+    padding: 8px;
+    color: #DBC5A4;
+    font-size: 1.1rem;
+    font-weight: 700;
+    
+    border: 1px solid #DBC5A4;
+    border-radius: 10px;
+    }
+    .order_comment_button{
+      margin-left: 15px;
+      padding: 8px;
+      background: #DBC5A4;
+      color: #111111;
+      font-size: 1.1rem;
+      font-weight: 700;
+      
+      // border: 1px solid #DBC5A4;
+      border-radius: 10px;
+    }
+  // .link:hover{
+  //     color: #FFB600;
+  //   }
+  }
+  
+  
+
+
+      

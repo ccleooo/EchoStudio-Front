@@ -1,0 +1,110 @@
+.about_header_bg{
+  height: 570px;
+  background: url(../images/about/about.png);
+  h1{
+    font-size: 70px;
+    font-weight: bold;
+    padding: 8rem 3rem;
+    letter-spacing: 1.5px;
+  }
+}
+
+.about_text{
+  margin: 80px 0;
+  align-items: center;
+  .about_textz_left{
+    padding: 0 100px;
+    letter-spacing: 1px;
+    line-height: 1.8;
+    font-weight: 700;
+    .idea{
+      font-size: 20px;
+    }
+    p{
+      margin-bottom: 20px;
+    }
+    h2{
+      margin-bottom: 20px;
+      
+    }
+  }
+
+  .about_textz_right{
+    padding: 0 84px;
+  }
+}
+
+.service_items{
+  background: #111110;
+  padding: 80px 0 120px;
+  .service_items_title{
+    font-size: 20px;
+    font-weight: 700;
+    margin: 0 82px 0 100px;
+    padding-bottom: 15px;
+    letter-spacing: 1px;
+  }
+  .service_list{
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin: 60px 94px 20px 117px;
+    .service_title_text{
+      padding-bottom: 20px;
+      .text_link{
+        color: #fff;
+      }
+      .text_link:hover{
+        color: #FFB600;
+      }
+    }
+    
+    .about_img{
+      max-width: 300px;
+    }
+  }
+}
+
+
+//about_bottom_box
+.about_bottom_box{
+  position: relative;
+  margin: 100px 0;
+  .about_bottom{
+    padding: 0 80px 0 100px;
+    align-items: center;
+    .store_info{
+      letter-spacing: 1px;
+      line-height: 1.8;
+      font-weight: 700;
+      font-size: 20px;
+    }
+    .about_bottom_img_left{
+      
+      margin-top: 20px;
+      width: 250px;
+      margin-left: 40px;
+    }
+    .market_icon{
+      position: absolute;
+      top:50.5%;
+      left: 25.2%;
+      z-index: 10;
+      font-size: 30px;
+      color: #FFB600;
+    }
+    .about_address{
+      p{
+        text-align: center;
+        padding: 20px 0;
+        letter-spacing: 1px;
+        font-weight: 700;
+      }
+    }
+    .about_bottom_img_right{
+      margin-top: 56px;
+      width: 250px;
+      margin-left: 90px;
+    }
+  }
+  
+}

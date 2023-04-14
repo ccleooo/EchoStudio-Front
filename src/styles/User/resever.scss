@@ -1,0 +1,36 @@
+.reserver{
+  margin: 10px auto;
+}
+.reserver_head .reserver_title{
+  font-size: 30px;
+  font-weight: bolder;
+  padding-left: 15px;
+  border-left: 3px solid #DBC5A4;
+}
+
+.reserver_body{
+  margin: 40px 0;
+  background: #111110;
+  padding: 50px 60px 30px ;
+  .reserver_body_list{
+    display: flex;
+    margin-bottom: 30px;
+    background: #272727;
+    padding: 20px;
+    .room_img{
+      width: 250px;
+      height: 150px;
+      border: 1px solid #fff;
+      padding: 0;
+    }
+    .reserver_body_right{
+      padding: 9px 300px 13px 30px;
+    p{
+      font-size: 1rem;
+      // padding-top: 15px;
+      letter-spacing: 1px;
+    }
+    }
+  }
+  
+}

@@ -1,0 +1,415 @@
+footer{
+  padding: 50px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: #FFB600;
+    // background: url(../../images/footer/img.png);
+    .content{
+        display: flex;
+        justify-content: space-between;
+        margin: 0 0;
+    }
+}
+
+.footer_title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 0.625rem;
+    border-bottom: 1px solid #888276 ;
+    h2{
+        font-size: 1.875rem;
+        color: #DBC5A4;
+    }
+    .footer_icon{
+        font-size: 1.875rem;
+        color: #888276;
+    }
+    
+}
+
+
+.small_title{
+  padding-bottom: 5px;
+  font-size: 0.825rem;
+  color:#888276 ;
+}
+.footer_left{
+    padding: 0 100px 0 0;
+    .address{
+      font-size: 0.825rem;
+      margin-top:5px;
+      color:#888276 ;
+    }
+    .email{
+      margin-top: 15px;
+      font-size: 0.985rem;
+      letter-spacing: 0.08rem;
+    }
+}
+.number{
+  margin-top: 15px;
+  font-size: 1rem;
+  letter-spacing: 0.08rem;
+}
+.chinese_text{
+  margin-top: 15px;
+  font-size: 0.938rem;
+}
+
+.footer_middle{
+    padding: 0 50px;
+    .sunday{
+      font-size: 0.938rem;
+      margin-top: 15px;
+      color:#888276 ;
+  }
+}
+
+.footer_right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 60px 0 40px 80px;
+    text-align: center;
+    .large_logo{
+        font-size: 4rem;
+        letter-spacing: 0.188rem;
+        font-weight: bold;
+        font-family: 'Caesar Dressing', cursive;
+    }
+    .right_text{
+        display: flex;
+        justify-content: center;
+        color:#888276;
+        letter-spacing: 0.085rem;
+        font-size: 1.125rem;
+    }
+}
+
+// RWD 的 Footer
+.rwd_footer{
+  display: none;
+  padding: 0;
+  .rwd_content{
+    display: flex;
+    justify-content: space-between;
+    .icons_btn{
+      position: relative;
+      width: auto;
+      color:#DBC5A4 ;
+      padding: 15px 15px ;
+      background: transparent;
+      border: none;
+      .icons{
+        font-size: 30px;
+      }
+      .icon_text{
+        margin-top: 5px;
+        letter-spacing: 1px;
+        font-size: 14px;
+      }
+      .footer_text_totop {
+        padding-bottom: 4px;
+      }
+      .user{
+        font-size: 30px;
+      }
+      
+      .img_cart{
+        width: 38px;
+        height: 30px;
+        background: url(../../images/svg/cart.svg) center no-repeat;
+        background-size: 30px;
+        margin: 0;
+      }
+      .count{
+        position: absolute;
+        z-index: 5;
+        top: -1%;
+        right: 9%;
+        border-radius: 50%;
+        width: 20px;
+        height: 20px;
+        color: #000;
+        font-weight: bold;
+        background: #FFB600;
+        font-size: 14px;
+      }
+    }
+    .footer_user_btn{
+      width: auto;
+      color:#DBC5A4 ;
+      background: #000;
+      border: none;
+      .user_login{
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        border: 2px solid #FFB600;
+        background: url(../../images/svg/cart.svg) center no-repeat;
+      }
+    }
+  }
+}
+
+
+
+
+
+
+
+
+//RWD
+
+@media screen and (max-width:1500px){
+
+  .footer_left{
+    padding: 0 50px 0 0;
+  }
+  .footer_middle{
+    padding: 0 30px;
+  }
+  .footer_right{
+    padding: 70px 0 40px 50px;
+  }
+
+  
+}
+@media screen and (max-width:1400px){
+  footer{
+    padding: 40px 0;
+  }
+  .footer_title{
+    padding-bottom: 8px;
+    h2{
+      font-size: 1.675rem;
+    }
+  .footer_icon{
+      font-size: 1.675rem;
+    }
+  }
+
+  .footer_left{
+    padding: 0 60px 0 0;
+    .address{
+      font-size: 0.825rem;
+      margin-top: 10px;
+      }
+    .email{
+      margin-top: 12px;
+      font-size: 0.85rem;
+      letter-spacing: 0.08rem;
+    }
+  }
+  .number{
+    margin-top: 12px;
+    font-size: 0.95rem;
+    letter-spacing: 0.08rem;
+  }
+  .chinese_text{
+    margin-top: 12px;
+    font-size: 0.9rem;
+  }
+  .footer_middle{
+    padding: 0 30px;
+}
+  .footer_right{
+    .large_logo{
+      font-size: 2.9rem;
+    }
+    .right_text{
+      font-size: 0.875rem;
+    }
+  }
+}
+@media screen and (max-width:1200px){
+  .footer_left{
+    padding: 0 60px 0 0;
+  }
+  .footer_middle{
+    padding: 0 30px;
+  }
+  .footer_right{
+    padding: 60px 0 40px 30px;
+  }
+  footer{
+    padding: 40px 0;
+  }
+  .footer_title{
+    h2{
+      font-size: 1.575rem;
+    }
+  .footer_icon{
+      font-size: 1.575rem;
+    }
+  }
+
+  .footer_left{
+    .address{
+      font-size: 0.825rem;
+      margin-top: 10px;
+    }
+    .email{
+      margin-top: 12px;
+      font-size: 0.8rem;
+      letter-spacing: 0.08rem;
+    }
+  }
+  .number{
+    margin-top: 12px;
+    font-size: 0.9rem;
+    letter-spacing: 0.08rem;
+  }
+  .chinese_text{
+    margin-top: 12px;
+    font-size: 0.88rem;
+  }
+
+  .footer_middle{
+    padding: 0 30px;
+  }
+  .footer_right{
+    .large_logo{
+      font-size: 2.6rem;
+    }
+    .right_text{
+      font-size: 0.75rem;
+   }
+  }
+}  
+@media screen and (max-width:991px){
+  footer{
+    padding: 30px 0;
+  }
+  .small_title{
+    padding-bottom: 3px;
+    font-size: 0.625rem;
+  }
+  .footer_title{
+    h2{
+      font-size: 1.25rem;
+    }
+  .footer_icon{
+      font-size: 1.25rem;
+    }
+  }
+  .footer_left{
+    padding: 0 30px ;
+    .address{
+      font-size: 0.625rem;
+      margin-top: 10px;
+    }
+    .email{
+      margin-top: 12px;
+      font-size: 0.8rem;
+      letter-spacing: 0.08rem;
+    }
+  }
+  .number{
+    margin-top: 12px;
+    font-size: 0.9rem;
+    letter-spacing: 0.08rem;
+  }
+  .chinese_text{
+    margin-top: 12px;
+    font-size: 0.88rem;
+  }
+
+  .footer_middle{
+    padding: 0 30px;
+  }
+  .footer_right{
+    padding: 30px 0px 0px;
+    .large_logo{
+      font-size: 2.4rem;
+    }
+  }
+}
+
+// 換footer
+@media screen and (max-width:767px){
+  .rwd_footer .container{
+    max-width: 55rem;
+  }
+  .footer_computer{
+    display: none;
+  }
+  .rwd_footer{
+    display: block;
+  }
+}
+@media screen and (max-width:576px){
+  .rwd_footer{
+    padding: 0.5rem 0;
+    .rwd_content{
+      .icons_btn{
+        padding: 0.05rem 0.65rem;
+        .icons{
+          font-size: 28px;
+        }
+        .footer_heart_icon {
+          font-size: 25px;
+        }
+        .icon_text{
+          font-size: 12px;
+          line-height: 1;
+        }
+        .user{
+          font-size: 28px;
+        }
+        .count{
+          width: 20px;
+          height: 20px;
+          font-size: 12px;
+        }
+      }
+    }
+  }
+  .footer_cart_icon {
+    width: 2rem;
+    display: flex;
+  }
+  .footer_user_btn {
+    .user_login_img {
+      width: 4rem;
+      position: absolute;
+      top: -19%;
+      left: 44%;   
+      img {
+        border-radius: 50%;
+        border: 2px solid #FFB600;
+      }
+    }
+  }
+}
+@media screen and (max-width:340px){
+  .rwd_footer{
+    .rwd_content{
+      .icons_btn{
+        padding: 10px 15px;
+        .icons{
+          font-size: 26px;
+        }
+        .icon_text{
+          font-size: 12px;
+        }
+        .user{
+          font-size: 26px;
+        }
+        .img_cart{
+          background-size: 26px;
+        }
+        .count{
+          top: 4%;
+          right: 15%;
+          width: 18px;
+          height: 18px;
+          font-size: 13px;
+        }
+      }
+    }
+  }
+}
+

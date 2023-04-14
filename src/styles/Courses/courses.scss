@@ -1,0 +1,244 @@
+.banner_courses{
+  width: 100%;
+  min-height: 69vh;
+}
+
+.class_title{
+  .class_title_left{
+      font-size: 4rem;
+  }
+  .class_title_right{
+      font-size: 1.375rem;
+      line-height:  2.563rem;
+      text-align: center;
+      font-weight: 400;
+      font-style: normal;
+  }
+}
+.class_all{   
+  .class_card{  
+    margin: 2rem 0;
+    display: flex;
+    justify-content: center;
+    .courses_card{
+    width: 25.05rem;
+    border: 1px solid #DBC5A4;
+    .card_img_top{
+      width: 24.92rem;
+      height: 18.75rem;
+    }
+    .card_body{
+      background: #000000;
+      height: 13.813rem;
+      .card_text{
+        width: 320px;
+        height: 10.5rem;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 1.25rem;
+        line-height: 2rem;
+        .star_evaluate{
+          display: flex;
+          align-items: center;
+          padding:0.438rem 0;
+          .star_icon_people{
+            font-size: 24px;
+            margin-right: 0.313rem;
+            color: #FFB600;
+          }
+          
+          .evaluate{
+            margin-left: 0.625rem;
+            font-size: 0.875rem;
+          }
+        }
+        .time_log{
+          font-size: 1rem;
+        }
+        .people_price{
+          display: flex;
+          padding:0.438rem 0;
+          .people{
+            font-size: 0.875rem;
+          }
+          .price{
+            margin-left: 95px;
+            font-size: 1.5rem;
+          }
+        }
+        }
+      }
+    }
+  } 
+}
+
+.page{
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 20px;
+  .class_page_btn{
+      color: #DBC5A4;
+      font-size: 18px;
+      padding:  2px 10px;
+      margin-right: 10px;
+      width: auto;
+      border: 1px solid #DBC5A4;
+      border-radius:5px ;
+      background: transparent;
+  }
+  .double_btn{
+      padding: 2px 6px;
+  }
+  button:hover{
+      background: #888276;
+  }
+  .class_page_btn:hover{
+    background: #888276;
+  }
+}
+
+// // RWD
+// @media screen and (min-width: 1000px) and (max-width: 1500px){
+// .banner_courses{
+//   background-size: 100%;
+//   min-height: 76vh;
+// }
+
+
+// .class_title{
+//   display: block;
+//   margin-top: 0; 
+//   margin-right: 0; 
+//   margin-left: 0;
+//   .class_title_left{
+//     display: flex;
+//     justify-content: center;
+//   }
+//   .class_title_right{
+//     display: flex;
+//     justify-content: center;
+//     padding-top: 65px;
+//   }
+// }
+// .class{
+//   display: flex;
+// }
+// }
+
+// @media screen and (min-width: 500px) and (max-width: 1000px){
+
+// .banner_courses{
+//   background-size: 100%;
+//   min-height: 50vh;
+// }
+// .class_title{
+//   display: block;
+//   margin-top: 0; 
+//   margin-right: 0; 
+//   margin-left: 0;
+//   padding-right:0;
+//   padding-left: 0;
+//   margin-top:0;
+//   .class_title_left{
+//     display: flex;
+//     justify-content: center;
+//   }
+//   .class_title_right{
+//     display: flex;
+//     justify-content: center;
+//     padding-top: 65px;
+//   }
+// }
+// .class{
+//   display: flex;
+// }
+// }
+
+// @media screen and (min-width: 0px) and (max-width: 500px){
+
+//   .banner_courses{
+//     background-size: 150%;
+//     min-height: 38vh;
+//   }
+//   .class_title{
+//     display: block;
+//     margin-top: 0; 
+//     margin-right: 0; 
+//     margin-left: 0;
+//     padding-top:0;
+//     padding: 5px 0;
+//     .class_title_left{
+//       display: flex;
+//       justify-content: center;
+//       font-size: 18px;
+//       padding-top:10px;
+//     }
+//     .class_title_right{
+//       display: flex;
+//       justify-content: center;
+//       padding-top: 10px;
+//       font-size: 14px;
+//       line-height: 25px;
+//     }
+//   }
+//   .class{   
+//     .class_card{  
+//       margin: 0 0 10px 0;
+//       .card{
+//       border: 1px solid #DBC5A4;
+//       width: 200px;
+//       height: 250px;
+//       .card_img_top{
+//         background-size: 100%;
+//         width: 100%;
+//         height: 150px;
+//       }
+//       .card_body{
+//         background: #000000;
+//         height: 100px;
+//         padding: 0;
+//         }
+//       }
+//     } 
+//   }
+
+//   .class .card_text{
+//     width: 180px;
+//     height: 89px;
+//     font-style: normal;
+//     font-weight: 700;
+//     font-size: 10px;
+//     line-height: 20px;
+//     .star_evaluate{
+//       display: flex;
+//       align-items: center;
+//       padding:0;
+//       .star_icon{
+//         width: 15px;
+//         height:15px;
+//         margin-right: 2px;
+//       }
+//       .evaluate{
+//         margin-left: 5px;
+//         font-size: 10px;
+//       }
+//     }
+//     .time_log{
+//       font-size: 5px;
+//     }
+//     .people_price{
+//       display: flex;
+//       padding:0.438rem 0;
+//       .people{
+//         font-size: 0.875rem;
+//       }
+//       .price{
+//         position: absolute;
+//         right: 2.5rem;
+//         font-size: 10px;
+//       }
+//     }
+//   }
+
+// }

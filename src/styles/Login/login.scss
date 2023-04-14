@@ -1,0 +1,90 @@
+.container{
+
+  // 登入/註冊切換按鈕scss
+  .login_register_btn{
+    width: 400px;
+    text-align: center;
+    border-bottom: 1px solid #DBC5A4;
+
+
+    .login_active{
+      background-color: #DBC5A4;
+      color: black;
+      border-radius: 5px;
+      display: block;
+      font-weight: 700;
+      font-size: 1.2rem;
+      padding: 8px 0;
+    }
+    
+    .login_register_btns:hover{
+      color: #FFB600;
+    }
+  }
+
+
+
+
+  .user_login_form{
+
+    .user_login_form_control{
+      border-radius: 5px;
+      border: 1px solid hsl(36, 43%, 75%);
+      color: #fff;
+    }
+
+    .login_icons{
+      width: 26px;
+      height: 26px;
+      color: #DBC5A4;
+
+    }
+
+    .question_icon{
+      width: 20px;
+      color: #DBC5A4;
+      position: relative;
+      display: flex;
+      align-items: center;
+    }
+  }
+
+  .link-top {
+    height: 1px;
+    border-top: solid #DBC5A4 2px;
+  }
+
+  .user_login_btn{
+    border-radius: 5px;
+    background-color: #FFB600;
+    color: rgb(39, 39, 39);
+    width: 100%;
+    align-items: center;
+    font-weight: bold;
+    margin: 0 auto;
+  }
+
+  .login_or_register{
+    font-size: 1rem;
+  }
+    
+  .google_icon{
+    margin: 10px auto;
+    width: 26px;
+    height: 26px;
+  }
+
+}
+
+// .active{
+//   background-color: #DBC5A4;
+//   color: black;
+//   border-radius: 5px;
+// }
+
+
+
+
+  
+
+

@@ -1,0 +1,12 @@
+[
+  {
+    "take_method": 1,
+    "take_method_name": "黑貓宅配",
+    "take_method_price": 130
+  },
+  {
+    "take_method": 2,
+    "take_method_name": "到店自取",
+    "take_method_price": 0
+  }
+]

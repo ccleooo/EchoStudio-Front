@@ -1,0 +1,14 @@
+[
+  {
+    "receipt": 1,
+    "receipt_name": "與會員發票載具相符"
+  },
+  {
+    "receipt": 2,
+    "receipt_name": "索取紙本發票"
+  },
+  {
+    "receipt": 3,
+    "receipt_name": "捐贈發票"
+  }
+]

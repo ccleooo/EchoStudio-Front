@@ -1,0 +1,88 @@
+.container{
+    .banner_qa{
+      background: url(../../images/QA.jpg) no-repeat;
+      background-size: cover;
+      min-height: 400px;
+      padding-top: 5rem;
+      -webkit-filter: grayscale(100%);
+      // max-width: 100%;
+      background-position:center;
+      opacity: 0.7;
+    }
+    .banner_text{
+      color:#DBC5A4;
+      font-weight: 900;
+      font-size: 5.625rem;
+      letter-spacing:1rem;
+      position: absolute;
+      top:350px;
+      left: 10%;
+    }
+  
+  
+  }
+  .container{
+    .title_faq{
+      margin: 60px 0 40px 0;
+      letter-spacing:0.5rem;
+      font-size: 3.0rem;
+        
+    }
+    .title{
+      text-align: center;
+
+      .faq_tabs{
+        margin: 20px auto;
+        font-weight: bold;
+
+        .MuiTabs-flexContainer{
+          display: flex;
+          width: 50%;
+        }
+        .css-1h9z7r5-MuiButtonBase-root-MuiTab-root{
+          font-weight: 600;
+          font-size: 20px;
+          color: #DBC5A4;
+        }
+        .css-1h9z7r5-MuiButtonBase-root-MuiTab-root.Mui-selected{
+          color: #FFB600;
+        }
+        .css-1aquho2-MuiTabs-indicator{
+          background-color: #FFB600;
+        }
+
+        .faq_btn{
+          white-space:nowrap;
+          padding:10px 0;
+          background-color: transparent;
+          font-size: 1.1rem;    
+          letter-spacing:0.2rem;
+          width: 150px;
+          margin: auto 20px;
+        }
+      }
+    }    
+  }
+  
+  .container{
+    .accordion-button{
+      background-color: #DBC5A4;
+      font-weight: bold;
+      margin:10px 0;
+      border-radius: 5px;
+      font-size: 1.05rem;
+    }
+    .accordion-item{
+      background-color:transparent;
+      border: transparent;
+      color: rgb(225, 225, 225);
+      // font-weight: bold;
+      font-size: 1rem;
+      letter-spacing: 1px;
+      line-height:2rem;
+      margin-bottom: 20px;
+    }
+
+  }
+  
+  

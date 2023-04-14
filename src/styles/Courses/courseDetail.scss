@@ -1,0 +1,820 @@
+.courseDetail{
+  .courseDetail_title{
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 40px;
+  }
+  .courseDetail_main{
+    margin: 0;
+    .main_left{
+      padding: 0;
+    }
+    .main_right{
+      background: #444444;
+      // height: 465px;
+      padding: 0;
+      .main_right_body{
+        .star_like{
+          display: flex;
+          justify-content: space-between;
+          .star_like_people{
+            display: flex;
+            align-items: center;
+            .star_like_icon_people{
+              font-size: 26px;
+              margin-right: 0.313rem;
+              color: #FFB600;
+            }
+            .star_people{
+              font-weight: 500;
+              font-size: 16px;
+              line-height: 32px;
+              letter-spacing: 1px;
+            }
+          }
+          
+          .course_like{
+            cursor: pointer;
+            font-size: 28px;
+            color: #F25164;
+          }
+        }
+        .courseDetail_time{
+          font-weight: 700;
+          font-size: 16px;
+          padding:10px 0;
+          letter-spacing: 1px;
+        }
+        .people_time_price{
+          display: flex;
+          padding: 35px 0;
+          margin-bottom: 3rem;
+          justify-content: space-between;
+        }
+        .people{
+          font-weight: 700;
+          margin-right: 1.25rem;
+          text-align: center;
+          letter-spacing: 1px;
+          .people_icon{
+            font-size: 36px; 
+            margin-bottom: 10px;
+          }
+        }
+        .time{
+          font-weight: 700;
+          text-align: center;
+          letter-spacing: 1px;
+          .time_icon{
+            font-size: 36px; 
+            margin-bottom: 10px;
+          }
+        }
+        .price{
+          display: flex;
+          align-items: flex-end;
+          font-weight: 700;
+          .price_NT{
+            font-size: 24px;
+            padding: 0 5px 3px 0;
+          }
+          .price_dollar{
+            padding-top: 1px;
+            font-size: 34px;
+            letter-spacing: 2px;
+          }
+        }
+        .shopping_inCart{
+          display: flex;
+          justify-content: space-between;
+          .shopping{
+            width: 210px;
+            height: 50px;
+            background:#FFB600;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 5px;
+            cursor: pointer;
+            .shopping_text{
+              font-weight: 700;
+              font-size: 16px;
+              letter-spacing: 2px;
+            }
+          }
+          .shopping:hover{
+            background:#E8922F;
+          }
+          .shopping:active{
+            background:#E8922F;
+          }
+         
+          .inCart{
+            width: 200px;
+            display: flex;
+            cursor: pointer;
+            justify-content: center;
+            align-items: center;
+            height: 50px;
+            border-radius: 5px;
+            border: 1px solid #FFB600;
+            .inCart_icon{
+              font-size: 26px;
+            }
+          }
+          .inCart_text {
+            color: #FFB600;
+            font-weight: bold;
+            margin-left: 0.5rem;
+          }
+          .inCart:hover{
+            border: 1px solid #E8922F;
+            color: #000000;
+            background:#E8922F;
+            .inCart_text{
+            color:#000000;
+            }
+          }
+          .inCart:active{
+            border: 1px solid #E8922F;
+            .inCart_icon{
+              color:#E8922F;
+            }
+          }
+        }
+        .shopping_inCart_buy{
+          display: flex;
+          justify-content: end;
+          .shopping_buy{
+            width: 210px;
+            height: 50px;
+            background:#FFB600;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 5px;
+            .shopping_text{
+              font-weight: 700;
+              font-size: 16px;
+              letter-spacing: 2px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.course_padding {
+  padding: 4rem 0 2rem;
+}
+
+.courseDetail_main {
+  .main_right_dflex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .main_right_body {
+      width: 100%;
+      padding: 0 4.5rem;
+    }
+  }  
+}
+.img_fluid_coursedetail{
+  width: 100%;
+}
+.course_introduction{
+  margin: 40px 0 0 0;
+  background: #111110;
+  .MuiTabs-flexContainer{
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    margin: 0 auto;
+  }
+  .css-1h9z7r5-MuiButtonBase-root-MuiTab-root{
+    font-weight: 600;
+    font-size: 20px;
+    color: #DBC5A4;
+  }
+  .css-1h9z7r5-MuiButtonBase-root-MuiTab-root.Mui-selected{
+    color: #FFB600;
+  }
+  .css-1aquho2-MuiTabs-indicator{
+    background-color: #FFB600;
+  }
+}
+
+.courseDetail_table_TabPanel{
+  background: #000000;
+}
+
+// 課程簡介
+.courseDetail_introduction{
+  padding-top: 25px;
+  margin: 0 auto;
+  .introduction_bg{
+    line-height: 40px;
+    font-size: 25px;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1000px;
+    height: 60px;
+    background: #FFB600;
+    margin: 0 auto;
+  }
+  .courseDetail_title_main_two{
+    line-height: 32px;
+    font-size: 18px;
+    text-align: start;
+    width: 900px;
+    margin: 0 auto;
+    p {
+      margin: 2rem 0 2.5rem;
+    }
+  }
+}
+
+.courseDetail_teacher{
+  padding: 60px 85px;
+  margin: 0 0 20px;
+  .courseDetail_teacher_bg {
+    padding: 2rem 3.5rem;
+    display: flex;
+    background: #444444;
+  }
+  .teacher_left{
+    margin: 5px 0;
+    padding-top: 1rem;
+    text-align: center;
+    .teacher_img{
+      width: 200px;
+      height: 200px;
+    }
+    .teacher_name{
+      font-weight: 400;
+      font-size: 24px;
+      text-align: center;
+      margin-top: 2rem;
+    }
+    .teacher_email{
+      font-weight: 400;
+      font-size: 18px;
+      text-align: center;
+      padding-bottom:5px ;
+    }
+    .teacher_icon_all{
+      display: flex;
+      margin: 0 60px;
+      .teacher_icon{
+        font-size: 30px;
+        margin: 0 10px;
+      }  
+    }
+  }
+  .teacher_hr{
+    border: 1px solid #DBC5A4;
+    margin:  0 60px;
+  }
+
+  .teacher_right{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    padding: 75px 0;
+  }
+}
+
+// 課程評價
+.message_board{
+  padding:25px;
+  margin-top: 35px;
+  background: #444444;
+  .message_board_text_icon{
+    display: flex;
+    color: #DBC5A4;
+    font-size: 20px;
+    padding-left: 20px;
+    .message_board_text{
+      color: #DBC5A4;
+      font-weight: 400;
+    }
+    .message_board_icon{
+      margin: 5px 10px;
+    }
+  }
+  .message_name_star{
+    display: flex;
+    padding: 25px 0;
+    justify-content: space-around;
+    color: #FFB600;
+    font-weight: 400;
+    font-size: 20px;
+    .message_star_text_icon{
+      display: flex;
+      .message_star_icon{
+        margin-top: -7px;
+        .style-module_tooltip__tKc3i{
+          width: 55px;
+          text-align: center;
+          color: #FFB600;
+          background-color: transparent;
+          font-size: 20px;
+        }
+      }
+      .message_star_icon1{
+        cursor: pointer;
+        margin: 0 2.2px;
+      }
+    }
+  }
+  .message_textarea{
+    display: flex;
+    margin:auto;
+    background: transparent;
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 0.03em;
+    color: #DBC5A4;
+    border:1px solid #DBC5A4;
+    padding: 0.65rem 0.75rem;
+  }
+  .course_message_btn{
+    color: #DBC5A4;
+    font-size: 18px;
+    padding:  5px 10px;
+    width: auto;
+    border: 1px solid #DBC5A4;
+    border-radius:5px ;
+    background: transparent;
+    margin: 25px 25px 0;
+    position: relative;
+    left: 77%;
+  }
+  .course_message_btn:hover{
+    background: #888276;
+  }
+
+
+}
+.courseDetail_evaluaten{
+  padding-top: 60px;
+  }
+  .evaluaten_main{
+    background: #444444;
+    padding: 26px 100px;
+    display: flex;
+    margin-bottom: 25px;
+    .evaluaten_main_left{
+      padding: 10px;
+      text-align: center;
+      .evaluaten_main_user_img{
+        width: 130px;
+        height: 130px;
+        border-radius: 50%;
+      }
+      .evaluaten_main_user_name{
+        font-weight: 400;
+        font-size: 20px; 
+        padding: 5px 60px;
+        letter-spacing: 0.03em;
+      }
+      .evaluaten_main_user_date{
+        font-weight: 400;
+        font-size: 16px;
+        padding: 0px 30px ;
+        letter-spacing: 0.03em;
+      }
+    }
+    .evaluaten_main_right{
+      padding-left:100px;
+      .evaluaten_main_right_star{
+        display: flex;
+        padding-bottom: 20px;
+        align-items: center;
+      }
+      .evaluaten_main_right_star_icon{
+        color: #FFB600;
+        font-size: 24px;
+        margin: 0 2.2px;
+      }
+      .evaluaten_main_star_people {
+        font-size: 20px;
+        padding-left: 10px;
+      }
+      .evaluaten_main_right_text{
+        width: 689px;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 28px;
+        letter-spacing: 0.03em;
+      }
+    }
+   
+  }
+
+.teacher_user {
+  border-bottom: 1px solid #DBC5A4;
+}
+
+.teacher_user:last-of-type {
+  border-bottom: none;
+}
+
+// 問題研討
+.courseDetail_question{
+  padding-top: 60px;
+  .courseDetail_question_select_search{
+    display: flex;
+    justify-content: flex-end;
+    .courseDetail_question_select{
+      background: transparent; 
+      color: #DBC5A4;
+      font-weight: 700;
+      cursor: pointer;
+      font-size: 20px;
+      line-height: 32px;
+      text-align: center;
+      letter-spacing: 0.03em;
+      border:0px;
+      margin: 0 0 60px 0;
+      padding-left: 0px;
+      padding-right: 20px;
+      .question_select_option{
+        color: #DBC5A4;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 32px;
+        padding: 5px;
+        background: black;
+      }
+    }
+    .courseDetail_question_select:focus, .courseDetail_question_select:focus-visible, .courseDetail_question_select:active{
+      outline: none;
+    }
+    .question_input{
+      color: rgba(219, 197, 164, 0.5);
+      background: transparent; 
+      border:0px;
+      width: 380px;
+      border-bottom:1px solid #DBC5A4 ;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 32px;
+      letter-spacing: 0.03em;
+      margin:0 20px;
+      padding: 0;
+      position: relative;
+      z-index: 1;
+      margin-left: 22px;
+      margin-right: 0px;
+      left: 18px;
+      right: 0px;
+    }
+    .question_input:focus, .question_input:focus-visible, .question_input:active{
+      outline: none;
+    }
+
+    .question_search_icon{
+      position: relative;
+      z-index: 2;
+      right: 5px;
+      cursor: pointer;
+    }
+  }
+  .message_board_question{
+    padding:25px;
+    background: #444444;
+    margin: 0 0 60px 0;
+    .message_board_question_text_icon{
+      display: flex;
+      color: #DBC5A4;
+      font-size: 20px;
+      padding-left: 40px;
+      .message_board_question_text{
+        color: #DBC5A4;
+        font-weight: 400;
+      }
+      .message_board_question_icon{
+        margin: 5px 10px;
+      }
+      
+    }
+    .message_question_name_star{
+      display: flex;
+      justify-content: space-between;
+      color: #FFB600;
+      font-weight: 400;
+      font-size: 20px;
+      padding: 25px 230px;
+      .message_question_star_text_icon{
+        display: flex;
+        .message_questionn_select{
+          background: transparent; 
+          cursor: pointer;
+          color: #DBC5A4;
+          font-weight: 700;
+          font-size: 20px;
+          line-height: 32px;
+          text-align: center;
+          letter-spacing: 0.03em;
+          border:0px;
+          padding-left: 0px;
+          padding-right: 20px;
+            .message_questionn_option{
+              color: #DBC5A4;
+              cursor: pointer;
+              font-weight: 700;
+              font-size: 18px;
+              line-height: 32px;
+              padding: 5px;
+              background: black;
+            }
+          }
+        .message_questionn_select:focus, .message_questionn_select:focus-visible, .message_questionn_select:active{
+          outline: none;
+        }
+      }
+    }
+    .message_question_textarea{
+      display: flex;
+      margin:auto;
+      background: transparent;
+      font-weight: 400;
+      font-size: 16px;
+      letter-spacing: 0.03em;
+      color: #DBC5A4;
+      border:1px solid #DBC5A4;
+      padding: 0.65rem 0.75rem;
+    }
+    .course_message_question_btn{
+   
+        color: #DBC5A4;
+        font-size: 18px;
+        padding:  5px 10px;
+        width: auto;
+        border: 1px solid #DBC5A4;
+        border-radius:5px ;
+        background: transparent;
+        margin: 25px 25px 0;
+        position: relative;
+        left: 77%;
+    }
+    .course_message_question_btn:hover{
+        background: #888276;
+    }
+    
+    .message_question_textarea:active, .message_question_textarea:focus-visible {
+      outline: none;
+      border: 1px solid #DBC5A4;
+    }
+  }
+ .courseDetail_question_main_body{
+  background: #111111;
+  padding: 0 4rem;
+  margin-bottom: 60px;
+
+  .collapsed{
+    color: #E8922F;
+  }
+  .courseDetail_question_main{
+    display: flex;
+    background: #111111;
+    padding: 40px 0;
+    .question_user_left{
+      .question_user_img{
+        width: 127px;
+        height: 127px;
+      }
+
+    }
+    .question_user_right{
+      margin: 20px 50px;
+      .question_user_chapter{
+        font-weight: 700;
+        font-size: 20px;
+        margin: 4px 0;
+      }
+      .question_user_title{
+        color: #ffffff;
+        font-weight: 700;
+        font-size: 18px;
+        margin: 4px 0;
+      }
+      .question_user_name_date_message{
+        display: flex;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 32px;
+        letter-spacing: 0.03em;
+        align-items: center;
+        .question_user_round{
+          font-size: 5px;
+          margin: 0 10px;
+        }
+        .question_user_message{
+          font-size: 12px;
+          margin: 0 8px;
+        }
+      }
+      .teacher_message{
+        display: flex;
+        margin: 80px 0 0 0;
+        .teacher_message_border{
+          margin: 0 30px 0 0 ;
+        }
+        .teacher_message_name_date_text{
+          margin: 25px 0;
+          .teacher_message_name_border{
+            display: flex;
+            .teacher_message_name{
+              background: #FFB600;
+              border-radius: 5px;
+              font-weight: 700;
+              font-size: 18px;
+              line-height: 32px;
+              letter-spacing: 0.03em;
+              padding: 0 10px;
+            }
+            .teacher_message_date{
+              font-weight: 500;
+              font-size: 16px;
+              line-height: 32px;
+              color: #DBC5A4;
+              margin-left: 8px;
+            }
+          }
+          .teacher_message_text{
+            margin: 30px 0;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 32px;  
+            letter-spacing: 0.03em;
+            color: #ffffff;
+          }
+        }
+      }
+    }
+
+  }
+  .user_message_name{
+    color: #FFB600;
+    border-radius: 5px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 32px;
+    letter-spacing: 0.03em;
+    padding: 0 10px;
+  }
+
+  .question_user_peoples{
+    padding-right: 10px;
+  }
+  .courseDetail_question_teacher{
+    display: flex;
+    background: #111111;
+    padding: 20px 0 20px 0;
+    align-items: center-;
+    .question_user_left{
+      .question_user_img{
+        width: 127px;
+        height: 127px;
+        border-radius: 50%;
+      }
+
+    }
+    .question_user_right{
+      margin: 20px 50px;
+      .question_user_chapter{
+        font-weight: 700;
+        font-size: 18px;
+        margin: 4px 0;
+      }
+      .question_user_title{
+        color: #ffffff;
+        font-weight: 700;
+        font-size: 16px;
+        margin: 4px 0;
+      }
+      .question_user_name_date_message{
+        display: flex;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 32px;
+        letter-spacing: 0.03em;
+        align-items: center;
+        .question_user_round{
+          font-size: 5px;
+          margin: 0 10px;
+        }
+        .question_user_message{
+          font-size: 12px;
+          margin: 0 8px;
+        }
+      }
+      .teacher_message{
+        display: flex;
+        margin: 30px 0 0 0;
+        padding: 1.5rem 2rem;
+        background: #44444457;
+        .teacher_message_border{
+          margin: 0 30px 0 0 ;
+          .teacher_message_img{
+            width: 127px;
+            height: 127px;
+            border-radius: 50%;
+          }
+        }
+        .teacher_message_name_date_text{
+          margin: 25px 0;
+          .teacher_message_name_border{
+            display: flex;
+            .teacher_message_name{
+              background: #FFB600;
+              border-radius: 5px;
+              font-weight: 700;
+              font-size: 18px;
+              line-height: 32px;
+              letter-spacing: 0.03em;
+              padding: 0 10px;
+            }
+            .teacher_message_date{
+              font-weight: 500;
+              font-size: 16px;
+              line-height: 32px;
+              color: #DBC5A4;
+              margin-left: 8px;
+            }
+          }
+
+          .teacher_message_text{
+            margin: 30px 0 0;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 28px;  
+            letter-spacing: 0.03em;
+            color: #ffffff;
+          }
+        }
+      }
+      .question_user_message:hover{
+        color: #E8922F;
+      }
+    }
+  }
+  .question_replay{
+    color: #DBC5A4;
+    font-size: 14px;
+    border: 1px solid #DBC5A4;
+    border-radius: 5px;
+    background: transparent;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    width: auto;
+    height: 25px;
+  }
+  .question_replay:hover{
+    background: #888276;
+  }
+ }
+}
+.courses_modal_addcart{
+  .modal_course_tital{
+    font-size: 1.15rem;
+      line-height: 1.3;
+      font-weight: 700;
+   }
+   .modal_course_name{
+    font-size: 1.05rem;
+      color: #E8922F;
+      letter-spacing: 1px;
+      font-weight: 500;
+   }
+   .modal_course_textarea{
+    border:1px solid #DBC5A4;
+   }
+   .modal_cousrse_no_btn{
+    background: #e3d5c1;
+    border-color: #888276;
+    color: #888276;
+    font-weight: bold;
+   }
+   .modal_cousrse_no_btn:hover{
+    background: #888276;
+    border-color: #888276;
+   }
+   .modal_cousrse_add_btn{
+    background: #ffb600;
+    border-color: #ffb600;
+    color: #000;
+    margin-left: 0.85rem;
+   }
+   .modal_cousrse_add_btn:hover{
+    background: #E8922F;
+    border-color: #E8922F;
+   }
+}
+

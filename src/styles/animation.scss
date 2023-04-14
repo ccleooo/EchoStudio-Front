@@ -1,0 +1,48 @@
+// arrow animation
+.home_banner .animate_icon {
+  color: #fff;
+  font-size: 3.5rem;
+  opacity: 0.3;
+  animation: icon-move .8s linear infinite;
+}
+
+.breaking_news .animate_btn {
+  color: #fff;
+  font-size: 2.65rem;
+  opacity: 0.6;
+  animation: btn-move .8s linear infinite;
+}
+
+@keyframes icon-move {
+  0% {
+      transform: translateY(0px);
+  }
+  100% {
+      transform: translateY(15px);
+  }
+}
+
+@keyframes btn-move {
+  0% {
+      transform: translateX(0px);
+  }
+  100% {
+      transform: translateX(15px);
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .home_banner .animate_icon {
+    font-size: 2.65rem;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .breaking_news .animate_btn {
+    font-size: 2.15rem;
+  }
+
+  .home_banner .animate_icon {
+    font-size: 2rem;
+  }
+}

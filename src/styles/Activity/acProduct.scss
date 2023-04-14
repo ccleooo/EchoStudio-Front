@@ -1,0 +1,314 @@
+//productDetail_header( 麵包削)
+.productDetail_header{
+  display: flex;
+  align-items: center;
+  padding: 20px 80px;
+  .productDetail_link{
+    color: #DBC5A4;
+    .productDetail_header_icon{
+      font-size: 1.563rem;
+    }
+  }
+  Link:hover{
+    color: #FFB600;
+  }
+}
+
+.ac_countdown {
+  color: #fff;
+  font-size: 1.563rem;
+  font-weight: bold
+}
+
+// productDetail_title 商品圖 價位
+
+.acproductDetail_title{
+  padding: 50px 5px;
+}
+
+//productDetail_left
+
+.productDetail_left{
+  padding: 0 50px;
+}
+
+.productDetail_left .left_top{
+  display: flex;
+  align-items: center;
+  .productDetail_icon_btn{
+    background: none;
+    margin: 0;
+    .productDetail_icon{
+      font-size: 40px;
+      color: #DBC5A4;
+    }
+  }
+  
+  .acproduct_img{
+    width: 100%;
+    .aclarge_img{
+      width: 480px;
+      height: 480px;
+      border: 1px solid #fff;
+      margin-bottom: 20px;
+    }
+
+    .acImBookmark{
+      width: 47px;
+      height: 64px;
+    }
+  }
+}
+
+//productDetail_right
+.acproductDetail_right{
+  padding: 0 70px;
+  h4{
+    font-size: 1.5rem;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+  }
+  p{
+    padding: 15px 0 10px;
+    font-size: 1.3rem;
+    font-weight: 700;
+  }
+  .productDetail_right_info{
+    color: #949494;
+    font-size: 1.5rem;
+    padding: 20px 0 5px;
+    letter-spacing: 0.8px;
+  }
+  h3{
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+
+  .ImBookmark {
+    width: 59px;
+    height: 72px;
+  }
+
+  //加減數量
+  .acproductDetail_count{
+    display: flex;
+    align-items: center;
+    padding: 20px 0 ;
+    .count_symbol{
+      padding: 8px 15px;
+      background: transparent;
+      color: #DBC5A4;
+    }
+    .count_btn_left{
+      border: 1px solid #DBC5A4;
+      border-radius: 5px 0 0 5px;
+      background: #FFFFFF;
+    }
+    .count_btn_left:hover{
+      background: #DBC5A4;
+      color: #000;
+    }
+    .count_btn_right{
+      border: 1px solid #DBC5A4;
+      border-radius: 0 5px 5px 0;
+      background: #FFFFFF;
+    }
+    .count_btn_right:hover{
+      background: #DBC5A4;
+      color: #000;
+    }
+    .count{
+      min-width: 26rem;
+      height: 2.65rem;
+      border: 1px solid #DBC5A4;
+      background: #FFFFFF;
+      color: #DBC5A4;
+      text-align: center;
+    }
+    // remove bootstrap input
+    input:focus,
+    input:focus-visible,
+    input:focus-within {
+    outline:none;
+    box-shadow: none;
+    }
+  }
+  
+
+  //購買 購物車按鈕
+  .acbuy_btn_group {
+    display: flex;
+    justify-content: space-between;
+    .acbuy_btn {
+      min-width: 250px;
+      padding: 10px 0;
+      color: #000000;
+      border: 1px solid #DBC5A4;
+      border-radius: 5px;
+      font-size: 16px;
+      font-weight: 700;
+      background-color: #FFB600;
+    }
+
+    .accart_btn {
+      min-width: 250px;
+      padding: 10px 0;
+      color: #000000;
+      border: 1px solid #DBC5A4;
+      border-radius: 5px;
+      font-size: 16px;
+      font-weight: 700;
+      background-color: #E8922F;
+    }
+    .acbuy_btn:hover {
+      color: #000;
+      background: #DBC5A4;
+    }
+  }
+}
+
+.container{
+  .title_faq{
+    margin: 60px 0 40px 0;
+    letter-spacing:0.5rem;
+    font-size: 3.0rem;
+      
+  }
+  .title{
+    text-align: center;
+
+      .btn{
+        white-space:nowrap;
+        padding:10px 0;
+        color: #DBC5A4;
+        background-color: transparent;
+        border: 1px solid #DBC5A4;
+        font-size: 1.1rem;    
+        letter-spacing:0.2rem;
+      }
+      .btn:hover{
+        background-color: #DBC5A4;
+        color: #fff;
+        font-weight: bold;
+      }
+  }   
+}
+
+//productDetail_info 商品介紹
+
+.acproductDetail_info{
+  padding: 20px 10px;
+}
+.acproduct_info_title{
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+    // .acproduct_info_icon{
+    //   font-size: 40px;
+    //   margin-right: 10px;
+    // }  
+}
+
+.actitle_text{
+      font-size: 1.5rem;
+      font-weight: bold;
+      margin-left: 23px;
+    }
+
+.acproduct_info_text{
+  font-size: 1.25rem;
+  font-weight: 700;
+  padding: 0px 30px 15px;
+  p{
+    padding-bottom: 15px;
+    
+    span{
+      color: #FFB600;
+    }
+  }
+}
+
+//規格說明 運送方式
+.acinfo_text_middle{
+  font-size: 1.25rem;
+  font-weight: 700;
+  ul{
+    padding: 0 50px ;
+  }
+}
+
+//相關商品
+.acrecommend_banner{
+  background: #111110;
+  .product_recommend{
+    .product_info_title{
+      padding: 10px 15px 0;
+    }
+
+    .acproduct_info_icon {
+      margin-top: 8px;
+      font-size: 20px;
+    }
+
+    .accard-title {
+      font-size: 1rem;
+      color: #FFFFFF;
+      margin-top: 10px;
+    }
+
+    .accard-text {
+      font-size: 1rem;
+      font-weight: bold;
+      color: #FFB600;
+      margin-top: 5px;
+    }
+    .ac_product_card{
+      padding: 0 1rem;
+      // margin: 0 10px;
+    }
+    .accart path {
+      fill: #FFB600;
+    }
+  }
+  .acproductDetail_icon{
+    font-size: 45px;
+    color: #DBC5A4;
+    position: absolute;
+    left: 0;  
+  }
+  .acproductDetail_icon2 {
+    font-size: 45px;
+    color: #DBC5A4;
+    position: absolute;
+    right: 0;  
+  }
+}
+
+.acproductDetail_recommend{
+  display: flex;
+  align-items: center;
+  padding: 30px 50px;
+  position: relative;
+  margin-bottom: 30px;
+}
+
+.acproduct_card_bottom {
+  align-items: center;
+  .acproduct_btn_cart {
+    width: 20%;
+  }  
+}
+.product_card_title{
+  font-size: 18px;
+  height: 55px;
+  line-height: 1.7rem;
+  font-weight: bold;
+  font-family: 'Arimo', sans-serif;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+  display: -webkit-box;
+  text-align: start;
+  background: none;
+  padding: 0;
+  margin-top: 15px;
+}

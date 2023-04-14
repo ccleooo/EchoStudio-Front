@@ -1,0 +1,121 @@
+.RehearsalDetail_title {
+    font-size: 1.563rem;
+    border-left: 5px solid #DBC5A4;
+    padding-left: 20px;
+    margin-top: 60px;
+    margin-left: 60px;
+    font-weight: bold;
+  }
+
+.rehdetail_bg {
+    background: #111111;
+    padding-top: 3rem;
+}
+
+.img_RehearsalDetail {
+    // background: url(../../images/rehearsal/rehearsal1.jpg) no-repeat;
+    // width: 1004.6px;
+    // height: 550px;
+    margin: 0 auto;
+    background-size: 110%;
+    background-position: center;
+    margin-top: 60px;
+}
+
+.img_RehearsalDetail3 {
+    // background: url(../../images/rehearsal/rehearsal1.jpg) no-repeat;
+    width: 315px;
+    // height: 195.43px;
+    // margin: 0 auto;
+    // background-size: 110%;
+    // background-position: center;
+    margin-top: 60px;
+    margin-bottom: 60px;
+
+}
+
+.detail {
+
+    h2 {
+        font-size: 1.5rem;
+        font-weight: bold;
+        color: #FFB600;
+    }
+
+    p {
+        font-size: 1rem;
+        font-weight: bold;
+        color: #DBC5A4;
+        margin-top: 20px;
+        margin-bottom: 60px;
+        line-height: 30px;
+    }
+}
+
+.rehdetail_reserve {
+  margin-bottom: 3.5rem;
+}
+
+.form_title {
+
+    h2 {
+        font-size: 1.5rem;
+        font-weight: bold;
+        color: #FFB600;
+    }
+
+    h3 {
+        font-size: 1.35rem;
+        color: #FFB600;
+        font-weight: bold;
+        margin: 2rem 0 3.65rem;
+    }
+}
+
+form {
+
+    .reform-label {
+        font-size: 1.25rem;
+        color: #DBC5A4;
+        font-weight: bold;
+        margin-right: 15px;
+    }
+
+    .form-text {
+        font-size: 1rem;
+        color: #DBC5A4;
+        font-weight: bold;
+    }
+    
+    .re_detail_form {
+        background-color: transparent;
+        border-top: none;
+        border-right: none;
+        border-left: none;
+        border-bottom: solid 1px #DBC5A4;
+        border-radius: 0;
+        color: #888276;      
+    }
+
+    input[type="date"]::-webkit-calendar-picker-indicator {
+        filter: invert(100%);
+      }
+
+    .form-control:active{
+        color: #DBC5A4;
+    }
+}
+
+
+.rehearsal_btn {
+    background-color: #DBC5A4 ;
+    width: 92px;
+    height: 39px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 1rem;
+    margin-top: 30px;
+    margin-bottom: 51px;
+}
+

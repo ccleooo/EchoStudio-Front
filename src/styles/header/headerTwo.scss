@@ -1,0 +1,152 @@
+header {
+  background: #000;
+  background: linear-gradient(to bottom, #dbc4a14b 1%, black 50%);
+  
+  .header_top{
+    padding: 20px 0 10px;
+    display: flex;
+    justify-content: space-between;
+
+    //header_left
+    .header_left{
+      display: flex;
+      max-height: 30px;
+      .search_line{
+        min-width: 195px;
+        min-height: 30px;
+        border: none;
+        background: none;
+        color: #DBC5A4;
+        text-align: end;
+      }
+      .search_icon{
+        display: flex;
+        align-items: center;
+        margin: 5px;
+        font-size: 1rem;
+        
+      }
+    }
+
+    //header_right
+    .header_right{
+      display: flex;
+      .header_login_text{
+        padding:5px 10px;
+        border-radius: 5px;
+        font-size: 0.75rem;
+      }
+      .header_btn_cart{
+        padding: 0;
+        .header_cart{
+          width: 25px;
+          margin-left: 15px;
+          margin-right: 5px
+        }
+      }
+      .header_btn_cart:hover{
+        .header_cart path {
+          fill: #FFB600;
+        }
+      }
+    }
+    
+    .hearder_right_block{
+      display: none;
+      .header_right_login{
+        display: flex;
+        align-items: center;
+        .header_user_img{
+          width: 30px;
+          height: 30px;
+          border: 2px solid #DBC5A4;
+          border-radius: 50%;
+          margin-right: 10px;
+        }
+        .header_right_icons_btn{
+          border: none;
+          background: none;
+          padding: 5px 10px;
+          .header_right_icons{   
+            color: #DBC5A4;     
+            font-size: 1.25rem;
+          }
+        }
+        
+        .header_right_icons:hover{
+          color: #FFB600;
+        }
+        .header_btn_cart{
+          padding: 0;
+          .header_cart{
+            width: 23px;
+            margin-left: 5px;
+          }
+        }
+        .header_btn_cart:hover{
+          .header_cart path {
+            fill: #FFB600;
+            }
+        }
+        p{
+          padding-left: 10px;
+        }
+      }
+    }
+  }
+
+
+
+  .logo{
+    padding: 0 0 25px;
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+    margin-top: -1.5rem;
+    h2{
+    font-size: 3.25rem;
+    letter-spacing: 0.225rem;
+    font-weight: bold;
+    font-family: 'Caesar Dressing', cursive;
+    }
+  }
+  
+}
+.text_line{
+  display: flex;
+  align-items: center;
+  .fire_icon{
+    margin: 0px 8px 0 0;
+    color: #DBC5A4;
+  }
+  .text_fire{
+    font-size: 0.75rem;
+    color: #888276;
+    letter-spacing: 0.6px;
+  }
+}
+header .list{
+  display: flex;
+  justify-content: center;
+  ul {
+    display: flex;
+    padding: 0;
+  li {
+    padding: 0 0.625rem ;
+    margin: 0 0;
+    .link{
+      font-size: 1rem;
+      padding: 0.5rem 0.75rem;
+      .icon{
+          width: 0.625rem;
+          height: 0.625rem;
+          margin: 0 0.625rem 0 0;
+          color: #FFB600;
+        }
+      }
+    }
+  }
+}
+.link:hover, .link:active, .link:focus{
+  color: #FFB600;
+}

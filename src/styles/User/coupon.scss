@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;600;700;800;900&display=swap');
+.page_bg{
+    // margin-top: 40px;
+    margin-bottom: 40px,;
+    padding:10px 32px 32px 32px;
+    
+
+
+    // padding: 2rem;
+    // background: #757575;
+       
+      .fw-bold{
+        // background: rgb(146, 146, 146);
+        font-size: 1.563rem;
+        letter-spacing: -1px;
+        padding-left:20px;
+        border-left: 5px solid #DBC5A4 ;
+      }   
+      .content_bg{
+        margin-top: 50px;
+        padding: 2px 0;
+        background: #111111;
+        
+        
+      }    
+}
+
+.content > div {
+    // display: none;
+    padding: 0.65rem;
+}
+
+.wrapper {
+      max-width: 1200px;
+      margin: 0 auto;
+      
+  }
+  .tabs{
+    margin: 10px 50px ;
+    padding: 30px 0 0;
+    display: flex;
+    justify-content: left;
+    border-bottom: 1px solid #DBC5A4;
+    a{
+      
+      color: #DBC5A4;
+      font-size: 1rem;
+      font-weight: bold;
+      margin: 0 20px 0 0;
+      padding:0 15px;
+      padding-bottom: 10px;
+      text-decoration: none;
+      
+  
+    }
+    // .coupon_active{
+    //   border-bottom: 5px solid #FFB600;
+    // }
+  }
+  
+  .coupon_use_status{
+    .css-1h9z7r5-MuiButtonBase-root-MuiTab-root.Mui-selected {
+      color: #DBC5A4;
+      font-family: 'Inter', sans-serif;
+      font-size: 1rem;
+      font-weight: bold;
+    }
+    .css-1aquho2-MuiTabs-indicator {
+      position: absolute;
+      height: 5px;
+      bottom: 0;
+      width: 100%;
+      -webkit-transition: all 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+      transition: all 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+      background-color: #FFB600;
+    }
+    .css-1h9z7r5-MuiButtonBase-root-MuiTab-root{
+      color:#DBC5A4;
+      font-family: 'Inter', sans-serif;
+      font-size: 1rem;
+      font-weight: bold;
+    }
+  }
+  .coupon_content{
+    display: flex;
+    align-items: center;
+    padding-top: 2px;
+    margin: 30px 50px 50px 50px;
+    padding: 5px;
+    // height: 130px;
+    align-items: center;
+    background: #272727;
+    .coupon_ticket{
+        width: 175px;
+        // margin: 20px;
+        margin-right: 10px;
+        padding: 10px;
+        color: #DBC5A4;
+    }
+   
+    .coupon_txt{
+        // height: 100px;
+        // background: #000;
+        padding: 10px;
+        line-height: 35px;
+        margin-left:0px;
+        font-family: 'Inter', sans-serif;
+        letter-spacing: 1px;
+
+
+        .coupon_line_1{
+            display: flex;
+            font-size: 1.5rem;
+            font-weight: 700;
+            align-items: center;
+
+            p{
+                margin-left:10px;
+                margin-bottom: 0px;
+                align-items: center;
+                font-size: 1rem;
+                opacity: .5;
+            }
+        }
+        .coupon_line_2{
+            font-size: 0.8rem;
+            font-weight: 700;
+
+        }
+        .coupon_line_3{
+            font-weight: 700;
+
+        }
+    }
+    .coupon_copy_button{
+      text-align: right;
+      margin-top: 4rem;
+     
+      .semi-toast-success{
+        background-color: none;
+        border: 1px solid #DBC5A4;
+        border-radius: 5px;
+        color:#DBC5A4;
+      }
+
+      .coupon_copy{
+        
+        padding: 5px;
+        background: #DBC5A4;
+        color: #111111;
+        font-family: 'Inter', sans-serif;
+        font-weight: 700;
+        font-size: 0.9rem;
+        border-radius: 5px;
+        
+    }   
+    }
+    .coupon_done{
+      border-left:1px solid #888276;
+      padding-left: 10px;
+      
+      .coupon_state{
+          color: #E8922F;
+          padding: 5px;
+          margin: 5px 0;
+          font-size: 1.5rem;
+          font-weight: 700;
+          letter-spacing: 1px;
+          font-family: 'Inter', sans-serif;
+          .coupon_check{
+            margin: 5px;
+            margin-top: -0.5px;
+          }
+          
+          // border:1px solid #DBC5A4;
+            }
+          .coupon_state_2{
+              color: #888276;
+              padding: 5px ;
+              margin: 5px 0;
+          
+              font-size: 1.5rem;
+              font-weight: 700;
+              letter-spacing: 1px;
+              font-family: 'Inter', sans-serif;
+              
+              // border:1px solid #DBC5A4;
+                }
+      .coupon_usetime{
+          margin: 5px;
+          font-size: .6rem;
+          font-weight: 700;
+          color: #DBC5A4;
+          font-family: 'Inter', sans-serif;
+        }
+        .coupon_usetime_2{
+          margin: 5px;
+          font-size: .6rem;
+          font-weight: 700;
+          color: #888276;
+          font-family: 'Inter', sans-serif;
+        }
+      
+    }
+    
+    }
+    .page{
+      text-align: center;
+      display: flex;
+      justify-content: center;
+      padding-bottom: 20px;
+      .btn{
+          color: #DBC5A4;
+          font-size: 18px;
+          padding:  2px 10px;
+          margin-right: 10px;
+          width: auto;
+          border: 1px solid #DBC5A4;
+          border-radius: 5px;
+      }
+      .double_btn{
+          padding: 2px 6px;
+      }
+      button:hover{
+          background: #888276;
+      }
+  }
+    
+ 

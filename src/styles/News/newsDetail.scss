@@ -1,0 +1,38 @@
+.newsdetail{
+    .container{
+        padding: 50px;
+        .top_p{
+            margin-bottom: 20px;
+            width: 40%;
+            padding: 20px 0 ;
+            p{
+               color: #DBC5A4; 
+            }
+        }
+        .tit{
+            background: #FFB600;
+            p{
+                color: #FFFFFF;
+                font-size: 20px;
+            }
+        }
+        .left_pic{
+            margin: 50px;
+            .newsdetail_img{
+                width: 500px;
+                height: 350px;
+            }
+            p{
+                color: #FFFFFF;
+                font-size: 20px;
+            }
+        }
+        .p_time{
+            text-align: center;
+            p{
+                font-size: 20px;
+                color: #DBC5A4;
+            }
+        }       
+    } 
+}

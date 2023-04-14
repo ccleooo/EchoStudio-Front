@@ -1,0 +1,73 @@
+.container{
+  .teacher_login{
+    background-color: #DBC5A4;
+    border-radius: 5px 5px 0 0;
+
+    h1{
+      font-weight: 700;
+      font-size: 1.2rem;
+      margin: 0 auto;
+      padding: 15px 0;
+      color: #444444;
+      text-align: center;
+    }
+  }
+
+  .teacher_login_form{
+    .login_icons{
+      width: 26px;
+      height: 26px;
+      color: #DBC5A4;
+    }
+  
+    .teacher_login_form_control{
+      border-radius: 5px;
+      border: 1px solid #DBC5A4;
+    }
+    
+    .question_icon{
+      width: 20px;
+      color: #DBC5A4;
+      position: relative;
+      display: flex;
+      align-items: center;
+    }
+    
+    .teacher_login_btn{
+      border-radius: 5px;
+      background-color: #FFB600;
+      color: rgb(39, 39, 39);
+      width: 100%;
+      align-items: center;
+      font-weight: bold;
+      margin: 0 auto;
+    }
+  }
+
+  .link-top {
+    height: 1px;
+    border-top: solid #DBC5A4 2px;
+  }
+
+  .login_or_register{
+    font-size: 1rem;
+  }
+
+  .google_icon{
+    margin: 10px auto;
+    width: 26px;
+    height: 26px;
+  }
+
+}
+
+
+
+    
+
+  
+    
+
+  
+
+  

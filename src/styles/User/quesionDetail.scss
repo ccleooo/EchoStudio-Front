@@ -1,0 +1,36 @@
+.qa_detail{
+    margin-left: 60px;
+    
+    .qa_detail_title{
+        color: #E8922F;
+        margin-bottom: 20px;
+        font-size: 30px;
+        border-left: 3px solid #DBC5A4;
+        p{
+            padding-left: 15px;
+            font-weight: 700;
+        }
+    }
+    .table-body{
+        background: #111111;
+        padding: 50px 70px;
+    }
+    .table {
+        thead {  
+            tr {
+                text-align: center;
+                th { 
+                    padding: 1rem 2.5rem;
+                }
+            }  
+        }
+        tbody {
+            tr {   
+                text-align: center;
+                td {
+                    padding: 1rem 2.5rem;
+                }
+            }
+        }
+    }
+}

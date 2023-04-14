@@ -1,0 +1,115 @@
+// 變數覆蓋需要在導入Bootstrap的Sass檔案之前
+// 參考Bootstrap的 _variables.scss
+$primary: rgb(39, 39, 39);
+$secondary: rgb(79, 218, 243);
+$border-radius: 0.15rem;
+$border-color:  #DBC5A4;
+
+
+// 導入Bootstrap所有的樣式與預設變數
+@import '~bootstrap/scss/bootstrap.scss';
+
+// 其它要導入覆蓋掉原本的預設bootstrap樣式要放在這下面 //自己定義的放在下面
+// 全站都會使用的共同樣式
+
+body {
+  font-family: 'Arimo', sans-serif;
+  background: rgb(0, 0, 0);
+}
+
+p,span,a,h1,h2,h3,h4,h5 {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+// colors
+.main_color {
+  color: #DBC5A4;
+}
+
+.primary_color {
+  color: #111110;
+}
+
+.second_color {
+  color: #888276;
+}
+
+.three_color {
+  color: #E8922F;
+}
+
+.four_color {
+  color: #FFB600;
+}
+
+.black {
+  color: #000000;
+}
+
+.dark_gray {
+  color: 444444;
+}
+
+.flex_align {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.padding_75 {
+  padding: 7.5rem 0;
+}
+
+.padding {
+  padding: 5rem 0;
+}
+
+// width
+.w_30 {
+  width: 30%;
+}
+
+// remove bootstrap input
+input:focus,
+input:focus-visible,
+input:focus-within {
+  outline: none;
+  box-shadow: none;
+}
+
+button {
+  border: none;
+}
+
+
+
+
+
+@media screen and (min-width: 1500px) and (max-width: 1920px) { 
+  .container{
+    max-width: 90rem; //1440px
+  }
+}
+
+@media screen and (max-width: 1200px) { 
+  .padding_75 {
+    padding: 5.5rem 0;
+  }
+}
+
+@media screen and (max-width: 767px) { 
+  .padding_75 {
+    padding: 4rem 0 6rem;
+  }
+}
+
+@media screen and (max-width: 575px) { 
+  .container{
+    padding-left: 1.563rem;
+    padding-right: 1.563rem;
+  }
+}

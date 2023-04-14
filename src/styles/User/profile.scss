@@ -1,0 +1,133 @@
+// ---- profile css ----
+.container{
+
+    
+  .profile_title{
+    margin-top: 11px;
+    border-left: 5px solid #DBC5A4;
+    
+    h1{
+        color: #E8922F;
+        margin: auto 0;
+        font-size: 1.563rem;
+        font-weight: bold;
+    }
+  }
+  
+  .content_profile{
+    height: 600px;
+    background-color: #111111;
+    margin-top: 50px;
+    color: #DBC5A4;
+    margin-bottom: 50px;
+  
+    .photo_profile{
+      .profile_photo{
+        width: 250px;
+        height: 250px;
+        border-radius: 50%;
+        position: relative;
+        top: 50%;
+        left: 50%;
+        transform: translate(-42% , 43%) 
+        }
+      .edit_user_photo_btn{
+        background-color: transparent;
+        border: 1px dashed #DBC5A4;
+        border-radius: 5px;
+        color: #DBC5A4;
+        position: relative;
+        top: 21%;
+        left: 27%;
+        // transform: translate(-50% , 50%);
+        width: 230px;
+      }
+    }
+  
+    .information_profile{
+      font-weight: bold;
+      
+      .user_profile_table{
+      margin: 20px auto;
+      border-collapse:separate;
+      border-spacing:45px 18px;
+      font-size: 1rem;
+      letter-spacing: 0.1rem;
+
+      .user_form_title{
+        background: #272727;
+        color: #FFB600;
+        border-radius: 5px;
+        width: 232px;
+        text-align: center;
+        padding: 10px 0;            
+      }
+      .user_form_content{
+        text-align: center;
+        width: 400px;
+      }
+    }
+
+    }
+  }
+
+  .user_profile_edit_btn{
+    background-color: #DBC5A4 ;
+    width: 104px;
+    padding: 10px 10px;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 1.125rem;
+  }
+}
+
+
+// ---- profile edit css ----
+
+.content_profile{
+  font-weight: bold;
+  font-size: 1rem;
+
+  .edit_member_content{
+    margin: 80px auto;
+
+    .user_edit_profile_form{
+      span{
+        color: #E8922F;
+      }
+
+      .img_border{
+        border-color: #DBC5A4;
+        box-shadow: 0 0 0 0.5rem #dbc5a4e7;
+      }
+    }
+    
+    .user_edit_profile_form_control{
+      border-top:none;border-left:none;border-right:none;
+      border-color: #DBC5A4;
+      border-radius: 0px;
+      color: #fff;
+      width: 90%;
+      
+    }
+    input::-webkit-calendar-picker-indicator {
+      filter: invert(100%);
+    }
+
+  }
+
+}
+.edit_profile_btn{
+  background-color: #DBC5A4 ;
+  width: 104px;
+  padding: 10px 10px;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 1.125rem;
+}
+
+
+
+
+  
+

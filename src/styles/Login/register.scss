@@ -1,0 +1,58 @@
+.container{
+
+  .login_register_btns{
+    display: block;
+    font-weight: 700;
+    font-size: 1.2rem;
+    padding: 8px 0;
+
+  }
+
+  .login_active{
+    background-color: #DBC5A4;
+    color: black;
+    border-radius: 5px;
+  }
+  
+  .login_register_btns:hover{
+    color: #FFB600;
+  }
+
+  .user_register_form{
+
+    .user_register_form_control{
+      border-radius: 5px;
+      border: 1px solid #DBC5A4;
+      color: #ffffff;
+    }
+
+    .login_icons{
+      width: 26px;
+      height: 26px;
+      color: #DBC5A4;
+    }
+
+  }
+  
+  .link-top {
+    height: 1px;
+    border-top: 1px solid #DBC5A4 ;
+  }
+  
+
+}
+
+
+.register_btn{
+    font-weight: 700;
+}
+
+.register_btn{
+    border-radius: 5px;
+    background-color: #FFB600;
+    color: rgb(39, 39, 39);
+    width: 100%;
+    align-items: center;
+    font-weight: bold;
+    margin: 0 auto;
+  }
